@@ -1,0 +1,642 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 1000vh;
+    background-color: rgb(171, 171, 171);
+}
+
+header .soz {
+    width: 400px;
+    height: 200px;
+    padding: 50px 1px 1px 1px;
+    position: relative;
+    left: 1000px;
+    font-size: 50px;
+    color: purple;
+
+}
+
+header .box1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: purple;
+    margin: 10px 20%;
+    position: relative;
+    bottom: 100px;
+}
+
+header .rasm img {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left: 400px;
+    bottom: 200px;
+
+}
+
+/* creativity */
+
+header .creativity {
+    width: 400px;
+    height: 400px;
+    font-family: sans-serif;
+    background-color: white;
+    position: relative;
+    left: 800px;
+    bottom: 450px;
+    padding: 10px;
+}
+
+header .creativity button {
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 10px 20px;
+
+}
+
+header .creativity button:hover {
+    border: 2px solid purple;
+    background-color: white;
+    color: purple;
+    transition: .9s;
+}
+
+/* box2 */
+
+header .box2 {
+    width: 100%;
+    height: 50vh;
+    background-color: purple;
+    position: relative;
+    bottom: 490px;
+}
+
+/* box3 */
+
+header .box3 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(171, 171, 171);
+    position: relative;
+    bottom: 490px;
+    display: flex;
+}
+
+.box3 .rasm1 img {
+    width: 230px;
+    height: 310px;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+}
+
+.box3 .results {
+    width: 1000px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    text-align: center
+}
+
+.box3 .icon i {
+    padding: 15px;
+    margin: 10px;
+    font-size: 40px;
+    border-radius: 100px;
+    background-color: rgb(211, 211, 211);
+}
+
+.box3 a {
+    color: black;
+}
+
+.box3 i {
+    padding: 1px 10px;
+    font-size: 20px;
+}
+
+.box3 .rasm2 img {
+    width: 230px;
+    height: 310px;
+    position: relative;
+    left: 300px;
+    bottom: 70px;
+}
+
+.box3 .support {
+    width: 1000px;
+    height: 350px;
+    background-color: white;
+    position: relative;
+    left: 400px;
+    bottom: 200px;
+    text-align: center
+}
+
+.box3 .crate {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    right: 600px;
+    top: 350px;
+}
+
+.box3 .crate span {
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.box3 .massa {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    right: 300px;
+    top: 350px;
+}
+
+.box3 .massa span {
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.box3 .massa button {
+    border-radius: 10px;
+    border: none;
+    padding: 8px 20px;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+}
+
+.box3 .massa button:hover {
+    border: 2px solid purple;
+    background-color: rgb(171, 171, 171);
+    color: purple;
+    transition: .9s;
+}
+
+/* box4 */
+
+.box4 {
+    width: 100%;
+    height: 80vh;
+    background-color: aqua;
+    position: relative;
+    bottom: 500px;
+    display: flex;
+}
+
+.box4 .whyas {
+    width: 50%;
+    height: 80vh;
+    background-color: purple;
+    align-items: center;
+    text-align: center;
+    padding: 250px;
+    color: white;
+    font-size: 20px;
+}
+
+.box4 .whyas button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: white;
+    color: purple;
+    font-size: 15px;
+}
+
+.box4 .whyas button:hover {
+    border: 2px solid white;
+    background-color: purple;
+    color: white;
+    transition: .20s;
+}
+
+.box4 .interested {
+    width: 50%;
+    height: 80vh;
+    background-color: palevioletred;
+    align-items: center;
+    text-align: center;
+    padding: 250px;
+    color: white;
+    font-size: 20px;
+}
+
+.box4 .interested button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: white;
+    color: palevioletred;
+    font-size: 15px;
+}
+
+.box4 .interested button:hover {
+    border: 2px solid white;
+    background-color: palevioletred;
+    color: white;
+    transition: .20s;
+}
+
+/* capabilities */
+
+.capabilities {
+    width: 50%;
+    height: 27vh;
+    position: relative;
+    left: 200px;
+    bottom: 400px;
+    font-size: 25px;
+}
+
+.capabilities h1 {
+    color: purple;
+}
+
+.capabilities a {
+    color: black;
+}
+
+/* box5 */
+
+.box5 {
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    bottom: 350px;
+    display: flex;
+    gap: 50px;
+    left: 200px;
+}
+
+.box5 .strategy {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    font-size: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px grey;
+}
+
+.box5 .identity {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    font-size: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px grey;
+}
+
+.box5 .communication {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    font-size: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px grey;
+}
+
+/* box6 */
+
+.box6{
+    width: 100%;
+    height: 30vh;
+    background-color: purple;
+}
+
+/* rasm2 */
+
+.rasm2 img{
+    width: 800px;
+    height: 600px;
+    position: relative;
+    left: 200px;
+    bottom: 350px;
+    
+}
+
+/* box7 */
+
+.box7{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    bottom: 260px;
+}
+
+.box7 .branding span{
+    padding: 100px;
+    font-size: 60px;
+    color: purple;
+}
+
+.box7 .get{
+    width: 50%;
+    height: 50vh;
+    position: relative;
+    top: 50px;
+    padding: 20px 100px;
+    font-size: 40px;
+}
+
+.box7 .hendrerit{
+    width: 50%;
+    height: 70vh;
+    position: relative;
+    left: 700px;
+    bottom: 300px;
+    font-size: 25px;
+}
+
+.box7 .hendrerit a{
+    color: black;
+}
+
+.box7 .hendrerit button{
+    border-radius: 10px;
+    border: none;
+    padding: 8px 20px;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+}
+
+.box7 .hendrerit button:hover{
+    border: 2px solid purple;
+    background-color: rgb(171, 171, 171);
+    color: purple;
+    transition: .9s;
+}
+
+/* box8 */
+
+.box8{
+    width: 100%;
+    height: 115vh;
+    background-color: purple;
+    position: relative;
+    bottom: 300px;
+    padding: 3% 30%;
+}
+
+.box8 .smith{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    padding: 5%;
+}
+
+.box8 .smith img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: 5px solid purple;
+    margin: 15px 200px;
+}
+
+.box8 .smith span{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.box8 .smith b{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    margin: 1px 200px;
+}
+
+.box8 .smith p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 1px 180px;
+}
+
+.box8 .link{
+    width: 600px;
+    height: 20vh;
+    text-align: center;
+    padding: 50px 1px;
+    font-size: 20px;
+    color: white;
+}
+
+.box8 .link a{
+    color: white;
+}
+
+/* box9 */
+
+.box9{
+    width: 100%;
+    height: 130vh;
+    position: relative;
+    bottom: 300px;
+}
+
+.box9 .shakl{
+    width: 400px;
+    height: 400px;
+    background-color: palevioletred;
+    border-radius: 1000px;
+    position: relative;
+    left: 450px;
+    top: 70px;
+}
+
+.box9 .rasmm5 img{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    left: 100px;
+    bottom: 180px;
+}
+
+.box9 .rasmm4 img{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 450px;
+    bottom: 400px;
+}
+
+.box9 .card1{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    padding: 60px 20px;
+    position: relative;
+    left: 750px;
+    bottom: 1100px;
+}
+
+.box9 .card1 a{
+    color: black;
+}
+
+.box9 .card1 button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: purple;
+    color: white;
+    font-size: 15px;
+}
+
+.box9 .card1 button:hover{
+    border: 2px solid purple;
+    background-color: white;
+    color: purple;
+    transition: .20s;
+}
+/* box10 */
+.box10{
+    width: 100%;
+    height: 100vh;
+    background-color: purple;
+    position: relative;
+    bottom: 200px;
+    padding: 50px 400px;
+}
+
+.box10 .h1{
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    text-align: center;
+}
+
+.box10 .h1 h1{
+    width: 600px;
+    height: 10vh;
+    color: white;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+.box10 .h1 span{
+    color: white;
+    font-size: 20px;
+}
+
+.box10 .h1 span a{
+    color: white;
+}
+
+.enter{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    gap: 5PX;
+}
+
+.enter .enter1 input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 98px;
+}
+
+.enter .enter1 span{
+    color: white;
+}
+
+.enter2{
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.enter2 input{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 280px;
+}
+
+.enter2 span{
+    color: white;
+}
+
+.enter3{
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.enter3 input{
+    border: none;
+    border-radius: 5px;
+    padding: 50px 280px;
+}
+
+.enter3 span{
+    color: white;
+}
+
+.box10 button{
+    border: none;
+    border-radius: 5px;
+    padding: 15px 335px;
+    color: white;
+    background-color: palevioletred;
+    font-size: 15px;
+}
+
+.box10 button:hover{
+    background-color: rgb(172, 90, 117);
+    color: white;
+    transition: .5s;
+
+}
+/* box11 */
+.box11{
+    width: 100%;
+    height: 38vh;
+    background-color: black;
+    position: relative;
+    bottom: 200px;
+    align-items: center;
+    text-align: center;
+    padding: 60px 500px ;
+}
+
+.box11 span{
+    color: white;
+}
+
+.box11 p{
+    margin: 90px auto;
+    color: gold;
+}
+
+.box11 p a{
+    color: blueviolet;
+}
+
+.box11 p a:hover{
+    color: rgb(186, 120, 248);
+    transition: .10s;
+}
